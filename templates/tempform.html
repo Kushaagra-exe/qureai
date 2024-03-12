@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<body>
+  <h1>Contact Form</h1>
+  <form id="contactForm" method="post">
+    <div>
+      <label for="name">Name:</label>
+      <input  id="name" name="name" required>
+    </div>
+    <div>
+      <label for="Age">Age:</label>
+      <input id="Age" name="Age" required>
+    </div>
+    <div>
+      <label for="Gender">Gender:</label>
+      <textarea id="Gender" name="Gender" required></textarea>
+    </div>
+    <div>
+      <label for="Symptoms">Symptoms:</label>
+      <textarea id="Symptoms" name="Symptoms" required></textarea>
+    </div>
+    <div>
+      <label for="Medical_history">Medical history:</label>
+      <textarea id="Medical_history" name="Medical_history" required></textarea>
+    </div>
+    <div>
+      <label for="Location">Location:</label>
+      <textarea id="Location" name="Location" required></textarea>
+    </div>
+    <div>
+      <label for="Potential_exposure">Potential exposure:</label>
+      <textarea id="Potential_exposure" name="Potential_exposure" required></textarea>
+    </div>
+
+    <button type="button" onclick="submitForm()">Submit</button>
+  </form>
+
+<script>
+    function submitForm() {
+      var formData = {
+        name: document.getElementById('name').value,
+        Age: document.getElementById('Age').value,
+        Gender: document.getElementById('Gender').value,
+        Symptoms: document.getElementById('Symptoms').value,
+        Medical_history: document.getElementById('Medical_history').value,
+        Location: document.getElementById('Location').value,
+        Potential_exposure: document.getElementById('Potential_exposure').value
+      };
+
+      fetch('http://127.0.0.1:5000/submit-data', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Response from server:', data);
+        // Handle the response as needed
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        // Handle errors
+      });
+    }
+  </script>
+
+
+</body>
+</html>
