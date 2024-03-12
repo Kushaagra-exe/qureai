@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.desktop-1-W5D {
+    align-items: center;
+    background-color: #abbed9;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position:relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.group-19-VC3 {
+    background-color: rgba(255, 255, 255, 0.73);
+    border: solid 0.1rem #afc1db;
+    box-sizing:border-box;
+    color: #000000;
+    flex-shrink: 0;
+    font-family: Kavoon, 'Source Sans Pro';
+    font-size: 3.6rem;
+    font-weight: 400;
+    height: 10rem;
+    line-height: 1.25;
+    padding: 5.4rem 14rem 1rem 14rem;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.auto-group-tcux-8Xq {
+    background-image: url('bgpic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-shrink: 0;
+    height: 77.3rem;
+    margin-right: 1.2rem;
+    position: relative;
+    width: calc(100% - 1.2rem);
+}
+
+.rectangle-8-F6f {
+    background-color: rgba(255, 255, 255, 0.73);
+    border-radius: 3rem;
+    height: 61rem;
+    left: 17%;
+    position: absolute;
+    top: 11.8rem;
+    width: 121.2rem;
+}
+
+.group-20-Lto {
+    border-radius: 4rem;
+    height: 8.4rem;
+    left: 48rem;
+    position: absolute;
+    top: 52.5rem;
+    width: 87.7rem;
+}
+
+.ask-me-anything--Uk7 {
+    color: rgba(0, 0, 0, 0.92);
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 2rem;
+    font-weight: 400;
+    height: 2.5rem;
+    left: 4.9rem;
+    line-height: 1.2125;
+    position: absolute;
+    top: 0.5cm;
+    white-space: nowrap;
+    width: 20.9rem;
+}
+
+.rectangle-13-9LT {
+    background-color: rgba(153, 176, 209, 0.78);
+    border-radius: 4rem;
+    height: 8.4rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 87.7rem;
+}
+
+.hello-sGT {
+    color: #000000;
+    font-family: Inika, 'Source Sans Pro';
+    font-size: 6.4rem;
+    font-weight: 700;
+    height: 7.4rem;
+    left: 48rem;
+    line-height: 1.3025;
+    position: absolute;
+    top: 20.3rem;
+    white-space: nowrap;
+    width: 22.2rem;
+}
+
+.how-are-you-feeling-today-ZQB {
+    color: #000000;
+    font-family: Inika, 'Source Sans Pro';
+    font-size: 6.4rem;
+    font-weight: 700;
+    height: 8.4rem;
+    left: 48rem;
+    line-height: 1.3025;
+    position: absolute;
+    top: 30rem;
+    white-space: nowrap;
+    width: 84.3rem;
+}

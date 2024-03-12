@@ -35,29 +35,30 @@ model = genai.GenerativeModel(model_name="gemini-1.0-pro",
                               safety_settings=safety_settings)
 
 # ena
-symptoms = "fatigue, vomiting, loose motions"
-age  = "20"
-gender = "female"
-med_history = "diabetes"
-tavel_history = "paris"
-exposture = "omicron"
+# symptoms = "fatigue, vomiting, loose motions"
+# age  = "20"
+# gender = "female"
+# med_history = "diabetes"
+# tavel_history = "paris"
+# exposture = "omicron"
 
-# # ena
-# symptoms = ""
-# age  = ""
-# gender = ""
-# med_history = ""
-# tavel_history = ""
-# exposture = ""
+# # nimit
+symptoms = "running nose, headache, sour throat, weakness"
+age  = "21"
+gender = "male"
+med_history = "surgery of nose"
+tavel_history = ""
+exposture = "tuberculosis"
 
 
 prompt = "input:I'm working on a fictional scenario for a patient experiencing {}. The patient is a {}-year-old {} with a history of {}. They recently traveled to {} and might have been exposed to {}. Can you provide a list of possible diseases that could cause these symptoms? It's important to emphasize that this is for informational purposes only and consulting a doctor is crucial for proper diagnosis and treatment.".format(symptoms, age, gender, med_history, tavel_history, exposture)
 print(prompt)
 
-prompt_parts = ["input:I'm working on a fictional scenario for a patient experiencing fatigue, vomiting, loose motions. The patient is a 20-year-old female with a history of diabetes. They recently traveled to paris and might have been exposed to omicron. Can you provide a list of possible diseases that could cause these symptoms? It's important to emphasize that this is for informational purposes only and consulting a doctor is crucial for proper diagnosis and treatment.",
-                "output: "]
-# prompt_parts.append('"'+prompt+'"')
-# prompt_parts.append("output: ")
+# prompt_parts = ["input:I'm working on a fictional scenario for a patient experiencing fatigue, vomiting, loose motions. The patient is a 20-year-old female with a history of diabetes. They recently traveled to paris and might have been exposed to omicron. Can you provide a list of possible diseases that could cause these symptoms? It's important to emphasize that this is for informational purposes only and consulting a doctor is crucial for proper diagnosis and treatment.",
+#                 "output: "]
+prompt_parts = []
+prompt_parts.append('"'+prompt+'"')
+prompt_parts.append("output: ")
 
 # print("\n\n", prompt_parts)
 #

@@ -23,3 +23,66 @@ input:I'm working on a fictional scenario for a patient experiencing fatigue, vo
 * **Appendicitis**: Inflammation of the appendix, leading to intense abdominal pain, nausea, and potentially vomiting.
 
 **Note:** It's crucial to emphasize that this list is for informational purposes only and does not constitute medical advice. Consulting a healthcare professional is essential for proper diagnosis, treatment, and guidance.
+
+
+
+
+
+//nimit
+**Possible Diseases Causing Running Nose, Headache, Sore Throat, and Weakness in a Patient with a History of Nose Surgery and Potential Tuberculosis Exposure:**
+
+**1. Common Cold:**
+
+* Caused by viruses
+* Symptoms: runny nose, sore throat, headache, weakness, sneezing
+
+**2. Influenza (Flu):**
+
+* Caused by influenza viruses
+* Symptoms: similar to common cold, but can be more severe with fever, muscle aches, and fatigue
+
+**3. Sinusitis:**
+
+* Inflammation of the sinuses
+* Symptoms: nasal congestion, runny nose, facial pain, headache
+
+**4. Tuberculosis:**
+
+* Bacterial infection that primarily affects the lungs
+* Symptoms: cough, weight loss, fever, night sweats, chest pain
+* **Important Note:** Tuberculosis is a serious disease and requires prompt medical attention.
+
+**5. Meningitis:**
+
+* Inflammation of the membranes surrounding the brain and spinal cord
+* Symptoms: severe headache, fever, nausea, vomiting, sensitivity to light
+
+**6. Encephalitis:**
+
+* Inflammation of the brain
+* Symptoms: headache, fever, confusion, seizures
+
+**7. Post-Nasal Drip:**
+
+* Mucus from the nose drains down the back of the throat
+* Symptoms: sore throat, cough, nasal congestion
+
+**8. Allergies:**
+
+* Immune system reaction to substances like pollen, dust, or pet dander
+* Symptoms: runny nose, sneezing, itchy eyes, congestion
+
+**9. Other Respiratory Infections:**
+
+* Pneumonia
+* Bronchitis
+* Laryngitis
+
+**10. Non-Infectious Conditions:**
+
+* Sinus headaches
+* Tension headaches
+* Migraines
+* Overexertion or fatigue
+
+**Disclaimer:** This list is not exhaustive and serves only as a starting point for consideration. **Consulting a qualified healthcare professional is crucial for an accurate diagnosis and appropriate treatment.**
