@@ -9,46 +9,43 @@
   <h1>Contact Form</h1>
   <form id="contactForm" method="post">
     <div>
-      <label for="name">Name:</label>
-      <input  id="name" name="name" required>
+      <label for="med_history">med_history:</label>
+      <input  id="med_history" name="med_history" >
     </div>
     <div>
-      <label for="Age">Age:</label>
-      <input id="Age" name="Age" required>
+      <label for="age">age:</label>
+      <input id="age" name="age" >
     </div>
     <div>
-      <label for="Gender">Gender:</label>
-      <textarea id="Gender" name="Gender" required></textarea>
+      <label for="gender">gender:</label>
+      <input id="gender" name="gender" ></input>
     </div>
     <div>
-      <label for="Symptoms">Symptoms:</label>
-      <textarea id="Symptoms" name="Symptoms" required></textarea>
+      <label for="symptoms">symptoms:</label>
+      <textarea id="symptoms" name="symptoms" ></textarea>
     </div>
     <div>
-      <label for="Medical_history">Medical history:</label>
-      <textarea id="Medical_history" name="Medical_history" required></textarea>
+      <label for="tavel_history">tavel_history :</label>
+      <textarea id="tavel_history" name="tavel_history" ></textarea>
     </div>
     <div>
-      <label for="Location">Location:</label>
-      <textarea id="Location" name="Location" required></textarea>
-    </div>
-    <div>
-      <label for="Potential_exposure">Potential exposure:</label>
-      <textarea id="Potential_exposure" name="Potential_exposure" required></textarea>
+      <label for="exposture">exposture:</label>
+      <textarea id="exposture" name="exposture" ></textarea>
     </div>
 
-    <button type="button" onclick="submitForm()">Submit</button>
+
+    <button type="submit">Submit</button>
   </form>
 
 <script>
     function submitForm() {
       var formData = {
         name: document.getElementById('name').value,
-        Age: document.getElementById('Age').value,
-        Gender: document.getElementById('Gender').value,
-        Symptoms: document.getElementById('Symptoms').value,
-        Medical_history: document.getElementById('Medical_history').value,
-        Location: document.getElementById('Location').value,
+        age: document.getElementById('age').value,
+        gender: document.getElementById('gender').value,
+        med_history: document.getElementById('med_history').value,
+        tavel_history: document.getElementById('tavel_history').value,
+        final_prompt: document.getElementById('final_prompt').value,
         Potential_exposure: document.getElementById('Potential_exposure').value
       };
 
