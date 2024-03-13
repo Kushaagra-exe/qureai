@@ -106,7 +106,7 @@ def submit_data():
 
         response = model.generate_content(jsonresp)
         # resp = {'resp':response}
-        return str(response.text), 200
+        return str(response.text    ), 200
 
     elif request.method == 'GET':
         return render_template('tempform.html')
