@@ -1,5 +1,33 @@
 from flask import Flask, jsonify, request, render_template
 import google.generativeai as genai
+from flask import Flask, render_template, request, flash, redirect
+import pickle
+import numpy as np
+from tensorflow.keras.models import load_model
+
+
+def predict(values, dic):
+    if len(values) == 8:
+        model = pickle.load(open('models/diabetes.pkl','rb'))
+        values = np.asarray(values)
+        return model.predict(values.reshape(1, -1))[0]
+    elif len(values) == 26:
+        model = pickle.load(open('models/breast_cancer.pkl','rb'))
+        values = np.asarray(values)
+        return model.predict(values.reshape(1, -1))[0]
+    elif len(values) == 13:
+        model = pickle.load(open('models/heart.pkl','rb'))
+        values = np.asarray(values)
+        return model.predict(values.reshape(1, -1))[0]
+    elif len(values) == 18:
+        model = pickle.load(open('models/kidney.pkl','rb'))
+        values = np.asarray(values)
+        return model.predict(values.reshape(1, -1))[0]
+    elif len(values) == 10:
+        model = pickle.load(open('models/liver.pkl','rb'))
+        values = np.asarray(values)
+        return model.predict(values.reshape(1, -1))[0]
+
 
 app = Flask(__name__)
 genai.configure(api_key="AIzaSyDl9IMiuDS254NMT3l02pYOuOw0UUz0IFk")
@@ -72,7 +100,7 @@ def chatbot():
     if request.method == 'GET':
         return render_template('ai.html')
     if request.method == 'POST':
-        jsonresp = ["input:{}".format(final_prompt),
+        jsonresp = ["input:{}".format(request.form),
                     "output: ",
                     ]
 
@@ -126,6 +154,56 @@ def submit_data():
 def submit_test():
     data = request
     return data
+
+
+@app.route("/diabetes", methods=['GET', 'POST'])
+def diabetesPage():
+    to_predict_dict = request.form.to_dict()
+    to_predict_list = list(map(float, list(to_predict_dict.values())))
+    pred = predict(to_predict_list, to_predict_dict)
+    return pred
+
+@app.route("/cancer", methods=['GET', 'POST'])
+def cancerPage():
+    to_predict_dict = request.form.to_dict()
+    to_predict_list = list(map(float, list(to_predict_dict.values())))
+    pred = predict(to_predict_list, to_predict_dict)
+    return pred
+
+@app.route("/heart", methods=['POST'])
+def heartPage():
+    to_predict_dict = request.form.to_dict()
+    to_predict_list = list(map(float, list(to_predict_dict.values())))
+    pred = predict(to_predict_list, to_predict_dict)
+    return pred
+
+@app.route("/kidney", methods=['POST'])
+def kidneyPage():
+    to_predict_dict = request.form.to_dict()
+    to_predict_list = list(map(float, list(to_predict_dict.values())))
+    pred = predict(to_predict_list, to_predict_dict)
+    return pred
+
+@app.route("/liver", methods=['POST'])
+def liverPage():
+    to_predict_dict = request.form.to_dict()
+    to_predict_list = list(map(float, list(to_predict_dict.values())))
+    pred = predict(to_predict_list, to_predict_dict)
+    return pred
+
+@app.route("/malaria", methods=['POST'])
+def malariaPage():
+    to_predict_dict = request.form.to_dict()
+    to_predict_list = list(map(float, list(to_predict_dict.values())))
+    pred = predict(to_predict_list, to_predict_dict)
+    return pred
+
+@app.route("/pneumonia", methods=['POST'])
+def pneumoniaPage():
+    to_predict_dict = request.form.to_dict()
+    to_predict_list = list(map(float, list(to_predict_dict.values())))
+    pred = predict(to_predict_list, to_predict_dict)
+    return pred
 
 
 if __name__ == '__main__':
