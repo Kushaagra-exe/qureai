@@ -1,0 +1,98 @@
+.Page2{
+    background-image: url("./images/Group\ 30.png");
+    background-size: 100% 102%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 98%;
+    height: 100vh;
+   }
+   
+   #el{
+     padding-top: 6%;
+     height: 250px;
+     width: 250px;
+     margin: 0;
+     position: absolute;
+     
+     padding-left: 16.5%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+   #el1{
+     padding-top: 100%;
+     height: 250px;
+     width: 250px;
+     margin: 0;
+     position: absolute;
+     
+     padding-left: 165%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+   #ig{
+     padding-top: 80%;
+     height: 240px;
+     width: 274px;
+     margin: 0;
+     position: absolute;
+     
+     padding-left: 50%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+   #whi{
+     padding-top: 35%;
+     height: 500px;
+     width: 500px;
+     margin: 0;
+     position: absolute;
+     
+     padding-left: 160%;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+   }
+   
+   #ell{
+     
+     padding-left: 50%;
+     padding-top: 55%;
+     margin:0;
+     position: absolute;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     height: 90px;
+   }
+   
+   #arrow{
+     padding-left: 49%;
+     padding-top: 53%;
+     margin:0;
+     position: absolute;
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     
+   }
+   
+   
+   
+   .tet{
+     padding-top: 11%;
+     padding-left: 9%;
+     font-size: 64px;
+   }
+   .but{
+     transition-duration: 0.4s;
+     border-radius: 50%;
+     margin: 0;
+     position: absolute;
+     top: 54%;
+     left: 20%;
+     background-color: rgb(186, 186, 244);
+     height: 100px;
+     width: 100px;
+     border-color: rgb(186, 186, 244);
+   
+   
+   }
+   
+   

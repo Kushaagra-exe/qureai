@@ -1,0 +1,28 @@
+#bu2{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  margin: 0px;
+  left: 70%;
+  top: 70%;
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  border: 0;
+  color: #99B0D1;
+  
+}
+#bu1{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  margin: 0px;
+  left: 60%;
+  top: 70%;
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  border: 0;
+  color: #5C779E;
+  
+}

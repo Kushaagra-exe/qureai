@@ -1,0 +1,96 @@
+.card{
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    
+    font-size: 50px;
+    margin: 0px;
+    left: 25%;
+    top: 45%;
+    margin: 0;
+    position: absolute;
+  }
+
+  #si{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  margin: 0px;
+  left: 35%;
+  top: -10%;
+  margin: 0;
+  position: absolute;
+  width: 500px;
+}
+
+#si2{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  margin: 0px;
+  left: 35%;
+  top: 199%;
+  margin: 0;
+  position: absolute;
+  width: 500px;
+}
+
+#sm{
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    margin: 0px;
+    left: 20%;
+    top: 300%;
+    width: 450px;
+    padding-left: 15px;
+    margin: 0;
+    background-color: 
+    #99B0D1;
+    border: 0;
+    border-radius: 30px;
+    position: absolute;
+    height: 60px;
+}
+#b1{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  margin: 0px;
+  left: 180%;
+  top: 300%;
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  border: 0;
+  color: #99B0D1;
+  
+}
+#b2{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  margin: 0px;
+  left: 280%;
+  top: 300%;
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  border: 0;
+  color: #5C779E;
+  
+}
+#b3{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  margin: 0px;
+  left: 280%;
+  top: 180%;
+  margin: 0;
+  position: absolute;
+  background-color: white;
+  border: 0;
+  color:  #99B0D1;
+  
+}

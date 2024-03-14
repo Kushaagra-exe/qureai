@@ -1,0 +1,134 @@
+.card{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 220px;
+  height: 55px;
+ 
+  border-radius: 40px;
+  margin: 0px;
+  position: ab;
+}
+#in1{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 55px;
+  background-color:  #99B0D1;
+  border-color: #99B0D1 ;
+  border-radius: 40px;
+  margin: 0px;
+  left: 200%;
+  top: -80%;
+  margin: 0;
+  position: absolute;
+  border: 0;
+  padding-left: 20px;
+  font-size: 25px;
+}
+#in2{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 55px;
+  background-color:  #99B0D1;
+  border-color: #99B0D1 ;
+  border-radius: 40px;
+  margin: 0px;
+  left: 200%;
+  top: 162%;
+  margin: 0;
+  position: absolute;
+  border: 0;
+  padding-left: 20px;
+  font-size: 25px;
+}
+#in3{
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 55px;
+  background-color:  #99B0D1;
+  border-color: #99B0D1 ;
+  border-radius: 40px;
+  margin: 0px;
+  left: 200%;
+  top: 320%;
+  margin: 0;
+  position: absolute;
+  border: 0;
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+
+
+#t1{
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 55px;
+ 
+  border-radius: 40px;
+  margin: 0px;
+  right: -100px;
+  top: -100%;
+  margin: 0;
+  position: absolute;
+  
+}
+#t2{
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 55px;
+ 
+  border-radius: 40px;
+  margin: 0px;
+  right: -100px;
+  top: 150%;
+  margin: 0;
+  position: absolute;
+  
+}
+#t3{
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 55px;
+ 
+  border-radius: 40px;
+  margin: 0px;
+  right: -100px;
+  top: 400%;
+  margin: 0;
+  position: absolute;
+  
+}
+
+.rad{
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 55px;
+ 
+  border-radius: 40px;
+  margin: 0px;
+  left: 200%;
+  top: 400%;
+  margin: 0;
+  position: absolute;
+  color: #99B0D1;
+}
+
+#but{
+  border:0px;
+  background-color: white;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  left: 300%;
+  top: 500%;
+  font-size: 30px;
+  color:#5C779E ;
+}
