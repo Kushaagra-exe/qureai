@@ -43,6 +43,7 @@ prompts = [
 ]
 
 
+
 # prompt = .format(symptoms, age, gender, med_history, tavel_history, exposture)
 
 
@@ -71,7 +72,16 @@ def chatbot():
     if request.method == 'GET':
         return render_template('ai.html')
     if request.method == 'POST':
-        return "Your Question: " + " " + request.form['userquery']
+        jsonresp = ["input:{}".format(final_prompt),
+                    "output: ",
+                    ]
+
+        response = model.generate_content(jsonresp)
+        # resp = {'resp':response}
+        rresp = "Your Question: " + " " + request.form['userquery'] + " <br> " + str(response.text)
+        return rresp, 200
+
+
 
 
 @app.route('/submit-data', methods=['GET', 'POST'])
@@ -106,7 +116,7 @@ def submit_data():
 
         response = model.generate_content(jsonresp)
         # resp = {'resp':response}
-        return str(response.text    ), 200
+        return str(response.text), 200
 
     elif request.method == 'GET':
         return render_template('tempform.html')
