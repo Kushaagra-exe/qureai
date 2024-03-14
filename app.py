@@ -112,5 +112,11 @@ def submit_data():
         return render_template('tempform.html')
 
 
+@app.route('/submit-test', methods=['POST'])
+def submit_test():
+    data = request
+    return data
+
+
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
