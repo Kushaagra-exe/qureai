@@ -1,0 +1,219 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #abbed9;
+}
+
+.desktop-1-W5D {
+    align-items: center;
+    background-color: #abbed9;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position:relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.group-19-VC3 {
+    background-color: #ffffff;
+    opacity: 0.5;
+    border: solid 0.1rem #afc1db;
+    box-sizing:border-box;
+    color: #000000;
+    flex-shrink: 0;
+    font-family: Kavoon, 'Source Sans Pro';
+    font-size: 2vw; /* Using viewport width unit for font size */
+    font-weight: 400;
+    height: 0.5vh;
+    line-height: 0.5vh;
+    padding: 5vw 14vw 1vw 14vw; /* Using viewport width unit for padding */
+    white-space: nowrap;
+    width: 100%;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+
+}
+
+.auto-group-tcux-8Xq {
+    background-image: url('bgpic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    flex-shrink: 0;
+    height: 85vh; /* Using viewport height unit for height */
+    margin-right: 1.2vw; /* Using viewport width unit for margin */
+    position: relative;
+    width: calc(100% - 1.2vw);
+}
+
+.rectangle {
+    background-color: rgba(255, 255, 255, 0.73);
+    border-radius: 3vw; /* Using viewport width unit for border radius */
+    height: 60vh; /* Using viewport height unit for height */
+    left: 17%;
+    position: absolute;
+    top: 12vh; /* Using viewport height unit for top */
+    width: 70vw; /* Using viewport width unit for width */
+}
+
+.ask-me-anything--Uk7 {
+    color: rgba(0, 0, 0, 0.92);
+    background-color: transparent; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1vw; /* Using viewport width unit for font size */
+    font-weight: 500;
+    height: 40%;
+    left: 5%;
+    line-height: 1.2125;
+    position: absolute;
+    top: 2.3vh; /* Using viewport height unit for top */
+    white-space: nowrap;
+    width: 90%;
+    outline: none;
+    border: none;
+}
+
+.rectangle-13-9LT {
+    background-color: rgba(153, 176, 209, 0.78);
+    border-radius: 4vw; /* Using viewport width unit for border radius */
+    height: 10vh; /* Using viewport height unit for height */
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 80vw; /* Using viewport width unit for width */
+}
+
+.form {
+    border-radius: 4vw; /* Using viewport width unit for border radius */
+    left: 8%; /* Using percentage for left position */
+    position: absolute;
+    top: 70%; /* Using percentage for top position */
+    width: 80%; /* Using percentage for width */
+    height: 8vh; /* Using viewport height unit for height */
+    background-color: #99B0D1; 
+}
+
+form {
+    background-color: #99B0D1;
+    width: 40%; /* Using percentage for width */
+}
+
+.circle {
+    width: 8vh; /* Using percentage for width */
+    height: 8vh; /* Using percentage for height */
+    border-radius: 50%;
+    background-color: #99B0D1;
+    background-size: contain;
+    background-image: url('send.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    border: none;
+    font-size: 4vw; /* Using viewport width unit for font size */
+    cursor: pointer;
+    left: 102%; /* Using percentage for left position */
+    position: absolute;
+    top: 2%; /* Using percentage for top position */
+}
+
+.hello-sGT {
+    color: #000000;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 4vw; /* Using viewport width unit for font size */
+    font-weight: 700;
+    height: 1vh; /* Using viewport height unit for height */
+    left: 12vh;
+    line-height: 1.3025;
+    position: absolute;
+    top: 15vh; /* Using viewport height unit for top */
+    white-space: nowrap;
+    width: 22.2vw; /* Using viewport width unit for width */
+}
+
+.how-are-you-feeling-today-ZQB {
+    color: #000000;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 3vw; /* Using viewport width unit for font size */
+    font-weight:700;
+    height: 20vh; /* Using viewport height unit for height */
+    left: 12vh;
+    line-height: 1.3025;
+    position: absolute;
+    top: 28vh; /* Using viewport height unit for top */
+    white-space: nowrap;
+    width: 84.3vw; /* Using viewport width unit for width */
+}
+
+/* @media only screen and (max-width: 1200px){
+    .circle {
+        width: 6vh; 
+        height: 6vh;
+        left: 101%;
+        font-size: 12vw;
+    }
+    .hello-sGT{
+        top: 25%;
+        font-size: 7vw;
+        font-weight: bold;
+        
+    }
+    .how-are-you-feeling-today-ZQB{
+        top: 45%;
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .ask-me-anything--Uk7{
+        font-size: 2.5vw;
+        font-weight: 700;
+    }
+    .form {
+        width: 80%; 
+        height: 10%;
+    }
+} */
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 1200px) {
+    /* Adjust styles for smaller screens */
+    .rectangle {
+        width: 90vw; /* Adjusted width for smaller screens */
+        left: 5%; /* Adjusted left position for smaller screens */
+    }
+
+    .form {
+        width: 80%; /* Adjusted width for smaller screens */
+        left: 10%; /* Adjusted left position for smaller screens */
+    }
+
+    form {
+        width: 80%; /* Adjusted width for smaller screens */
+    }
+
+    .circle {
+        left: 101%; /* Adjusted left position for smaller screens */
+        font-size: 12vw;
+    }
+    .hello-sGT{
+        font-size: 7vw;
+        font-weight: bold;
+        
+    }
+    .how-are-you-feeling-today-ZQB{
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .ask-me-anything--Uk7{
+        font-size: 2.5vw;
+        font-weight: 700;
+    }
+}
+@media screen and (min-width: 3000px) {
+    .circle {
+        font-size: 3vw; /* Adjust the font size for larger screens */
+    }
+}
+
